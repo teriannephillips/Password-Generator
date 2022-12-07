@@ -122,7 +122,7 @@ function randomFunction() {
     }
     //numbers criteria if selected adds to previous array
     if (numbers == "y") {
-        numberArray = [1, 2, 3, 4, 5, 6, 7, 8, 9.1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+        numberArray = [1, 2, 3, 4, 5, 6, 7, 8, 9,0,1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 2, 3, 4, 5, 6, 7, 8, 9,0, 1, 2, 3, 4, 5, 6, 7, 8, 9,0];
         totalArray3 = totalArray2.concat(numberArray);
     }
     else {
@@ -220,5 +220,4 @@ function validateSpecial() {
 function writePassword() {
     passwordText = document.querySelector("#password");
     passwordText.value = passwordString;
-
 }
